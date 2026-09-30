@@ -29,10 +29,13 @@
              <!--Etiqueta para salto de linea-->
              <br>
              <br>
+
              <!-- Enlace a una imagen mediante ruta relativa-->
             <center><img src="img/images.jpg" alt="Logo de html5" width="250px" height="200px"></center>
+
             <!--Salto de linea-->
             <br>
+
             <!--Escribir un parrafo-->
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est itaque odit ipsam voluptatibus perspiciatis harum molestiae cumque nam veniam facere, ut eos? Aspernatur veritatis officia expedita beatae velit excepturi commodi!
@@ -49,6 +52,7 @@
             Deleniti omnis voluptate magnam nulla consequuntur, necessitatibus amet qui nesciunt itaque blanditiis assumenda in quidem perferendis dolor iusto ratione harum reiciendis quos ipsam molestiae commodi odio doloribus id veniam. Perspiciatis.
 
         </section> <!--Fin del section-->
+        
         <!--Contenedor de listas-->
         <div>
             <!--Dentro deHTML tenemos 2 tipos de lsitas
@@ -67,6 +71,166 @@
                 <li>Lamborghini</li>
             </ul>
         </div>
+
+        <!--Creamos una tabla-->
+        <section>
+            <div>
+                <table border="1px">
+                    <tr>
+                        <th>Paises</th>
+                        <th>Poblacion</th>
+                        <th>Continente</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Ecuador</td>
+                        <td>18.000.000.000</td>
+                        <td>America</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Colombia</td>
+                        <td>25.000.000.000</td>
+                        <td>America</td>
+                    </tr>
+                    <tr>
+                        <td>Bolivia</td>
+                        <td>19.000.000.000</td>
+                        <td>America</td>
+                    </tr>
+                     <tfoot>
+                        <th>Pises</th>
+                        <th>Poblacion</th>
+                        <th>Continente</th>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <br>
+
+
+        <section>
+            <div>
+                <table border="1px">
+                    <tr>
+                        <th>Lenguajes de programacion mas usados</th>
+                        <th>Año de creacion</th>
+                    </tr>
+                    <tr>
+                        <td>Pyton</td>
+                        <td>1991</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>C#</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>1985</td>
+                    </tr>
+                    <tr>
+                        <td>TypeScript</td>
+                        <td>2012</td>
+                    </tr>
+                    <tr>
+                        <td>Rust</td>
+                        <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>1974</td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td>1994</td>
+                    </tr>
+                    <tr>
+                        <td>Stack Overflow</td>
+                        <td>2008</td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </section>
+
+        <!--Enlace a la tabla de ventas-->
+        <div>
+            <a href="">Ir a la tabla de ventas</a>
+        </div>
+
+        <div>
+            <a href="vistas/formulario.html">ir a formulario</a>
+        </div>
+
+        <!-- ../ saltar carpetas y encontrar el archivo que este a la altura de archivo 
+         que quiero ingresar -->
+
+         <!--peticiones get, botones, iamgenes, eqyiquetas a -->
+
+
+
+
+
+          <!--Formulario-->
+    <div>
+        <form action="../index.html" method="get">
+            <div>
+                <!--label: permite ingresar texto fijo-->
+                <!--for: enlace-->
+                <label for="nombre">Ingrese el nombre:</label>
+
+                <!--imput: caja para ingresar texto-->
+                <input type="text" id="nombre">
+            </div>
+            <br>
+
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" id="edad">
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <br>
+
+            <div>
+                <label for="direccion">Direccion</label>
+                <input type="text" id="direccion">
+            </div>
+            <br>
+
+            <!--Boton submit me permite enviar la peticion o informacion-->
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+            
+            <p>Cual es tu color favorito ?</p>
+            <label>
+                <input name="color"> Rojo
+            </label><br>
+
+            <label>
+                <input type="radio"> morado
+            </label>
+
+        
+            
+        </form>
+    </div>
+
+    <!--Regreasa a iniio-->
+    <a href="../index.html">Ir a la home</a>
+    
 
 
     </body>
